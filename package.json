@@ -12,7 +12,6 @@
   "dependencies"   : {
                       "require-kernel"      : "1.0.1",
                       "socket.io"           : "0.8.7",
-                      "ueberDB"             : "0.1.7",
                       "async"               : "0.1.15",
                       "express"             : "2.5.0",
                       "clean-css"           : "0.3.2",
@@ -20,7 +19,9 @@
                       "formidable"          : "1.0.7",
                       "log4js"              : "0.4.1",
                       "jsdom-nocontextifiy" : "0.2.10",
-                      "async-stacktrace"    : "0.0.2"
+                      "async-stacktrace"    : "0.0.2",
+                      "ueberDB"             : "git://github.com/alfredc/ueberDB.git#riak",
+                      "request"             : "2.9.100"
                      },
   "devDependencies": {
                       "jshint"  : "*"
